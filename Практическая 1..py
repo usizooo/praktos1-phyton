@@ -56,35 +56,35 @@ elif operator == "степень":
 
 elif operator == "квадратный корень":
     a = input("Введите число:")
-    if proverka(a) != 'YES' or proverka(b) != 'YES':
+    if proverka(a) != 'YES':
         print("Ошибка: введены некорректные данные")
         exit()
     res = math.sqrt(float(a))
 
 elif operator == "!":
     a = input("Введите число:")
-    if proverka(a) != 'YES' or proverka(b) != 'YES':
+    if proverka(a) != 'YES':
         print("Ошибка: введены некорректные данные")
         exit()
     res = math.factorial(float(a))
 
 elif operator == "sin":
     a = input("Введите радианы:")
-    if proverka(a) != 'YES' or proverka(b) != 'YES':
+    if proverka(a) != 'YES':
         print("Ошибка: введены некорректные данные")
         exit()
     res = math.sin(float(a))
 
 elif operator == "cos":
     a = input("Введите радианы:")
-    if proverka(a) != 'YES' or proverka(b) != 'YES':
+    if proverka(a) != 'YES':
         print("Ошибка: введены некорректные данные")
         exit()
     res = math.cos(float(a))
 
 elif operator == "tan":
     a = input("Введите радианы:")
-    if proverka(a) != 'YES' or proverka(b) != 'YES':
+    if proverka(a) != 'YES':
         print("Ошибка: введены некорректные данные")
         exit()
     res = math.tan(float(a))
